@@ -1,22 +1,16 @@
 {
-  "name": "jkl-tachyons",
-  "version": "1.1.0",
-  "description": "Boilerplate for starting a project with Jekyll and Tachyons",
+  "name": "mcsquared",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mrmrs/jkl-tachyons.git"
+    "url": "git://github.com/lustandfury/mcsquared.git"
   },
-  "keywords": [
-    "css",
-    "sass",
-    "oocss",
-    "performance"
-  ],
-  "author": "mrmrs",
+  "author": "lustandfury",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons/issues"
+    "url": "https://github.com/lustandfury/mcsquared/issues"
   },
   "devDependencies": {
     "browser-sync": "^1.1.1",
@@ -25,12 +19,6 @@
     "tachyons-cli": "^1.0.8",
     "watch": "^0.19.2"
   },
-  "contributors": [
-    {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
