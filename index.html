@@ -1,29 +1,73 @@
 ---
 layout: default
 ---
-
-<section class="center mw7">
-  <article>
-    {% for post in site.posts limit: 1 %}
-       <h1>{{ post.title }}</h1>
-      {{ post.content }}
-    {% endfor %}
-  </article>
+<article>
+  <header class="fn fl-ns w-50-ns pr4-ns">
+    <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+      Hi I'm Mike
+    </h1>
+    <h2 class="f3 mid-gray lh-title">
+      I live and work in Toronto and I’m Head of UX & Product Design at Rangle.io
+    </h2>
+    <h2 class="f3 mid-gray lh-title">
+      Some people say I look like Napoleon… but I don’t see it.
+    </h2>
+      <a class="f6 link dim br1 ph3 pv2 mb4 dib white bg-black" href="https://twitter.com/mikecostanzo">
+        Get In Touch
+      </a>
+  </header>
   <section>
     <article>
-      <ul>
-        {% for post in paginator.posts %}
-          <li>
-            <a href="{{ post.url }}" title="{{post.title}}">
-              <date datetime="{{post.date}}">
-                {{ post.date | date_to_long_string }}
-              </date>
-              {{ post.title }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-      <p>...</a></p>
+      <h1 class="mt0">SELECTED WRITING</h1>
+      <div class="fn fl-ns w-50-ns mb4">
+        <h3 class="mt0 measure">
+          1. Lean Discovery: Shifting from Outputs to Outcomes by Finding & Fixing Customer Pain
+        </h3>
+        <p class="f5 lh-copy measure mt0-ns">
+          So many software development projects start with high levels of uncertainty. Some of it is explicit, you many not know exactly who the target customer is and what they want, and some of it may be implicit, you have a great idea but are uncertain about the technical risks of delivering the experience or what the state-of-the-art is capable of and, as they say, you don't know what you don't know. In these cases we echo the words of "Ike" Eisenhower:
+          <blockquote class="fw6 measure">“Plans are worthless, but planning is everything.”
+            <br>
+            <caption>
+              — Dwight D. Eisenhower
+            </caption>
+          </blockquote>
+        </p>
+        <p class="f5 lh-copy measure">
+          <a href="http://blog.rangle.io/lean-discovery-shifting-from-outputs-to-outcomes-by-finding-fixing-customer-pain/">
+            Read full post
+          </a>
+        </p>
+      </div>
+    </article>
+
+    <article>
+      <div class="fn fr-ns w-50-ns mb4">
+        <h3 class="mt0 measure">
+          2. How Steve Jobs REALLY helped Apple get back to basics
+        </h3>
+        <p class="f5 lh-copy measure mt0-ns">
+          “A lot of times, people don’t know what they want until you show it to them.” is an often quoted piece of Steve Jobs wisdom I’ve hated for a long time. It has given license to so much misguided energy, and I’ve seen too many companies use it’s premise to avoid talking to customers many times in my career. I want to dispel the implication of this statement once and for all.
+        </p>
+        <p class="f5 lh-copy measure mt0-ns">
+          The sentence before the quote illuminates things further and changes the intent considerably (That full response is even longer and you can read the full interview here):
+          <blockquote class="fw6 measure">
+            “…it’s really hard to design products by focus groups. A lot of times, people don’t know what they want until you show it to them.”
+            <br>
+            <caption>
+              — Steve Jobs
+            </caption>
+          </blockquote>
+        </p>
+        <p class="f5 lh-copy measure">
+          The line “It’s really hard to design products by focus groups.” realigns this quote in a significant way. There are plenty of articles and on the effectiveness, or lack thereof, in using focus groups in product development.
+        </p>
+        <p class="f5 lh-copy measure">
+          <a href="https://seekingwisdom.io/how-steve-jobs-helped-apple-get-back-to-basics-bcdfa90bb93a">
+            Read full post
+          </a>
+        </p>
+      </div>
     </article>
   </section>
-</section>
+</article>
+
