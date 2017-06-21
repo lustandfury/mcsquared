@@ -5,3 +5,7 @@ a {
 blockquote {
   margin: 0;
 }
+
+.lh-list {
+  line-height: 2;
+}
