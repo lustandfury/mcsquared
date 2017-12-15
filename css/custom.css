@@ -20,4 +20,5 @@ blockquote {
     background: url(../img/napoleon-crop.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  background-repeat: repeat;
 }
