@@ -15,7 +15,7 @@ blockquote {
   font-size: 6.25rem
 }
 
-knockout-text {
+.knockout-text {
     color: #000;
     background: url(img/napoleon-crop) no-repeat;
     -webkit-background-clip: text;
