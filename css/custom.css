@@ -16,9 +16,10 @@ blockquote {
 }
 
 .knockout-text {
-    color: #000;
-    background: url(../img/napoleon-crop.jpg) no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  color: #000;
+  background: url(../img/napoleon-crop.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-repeat: repeat;
+  background-size: contain;
 }
