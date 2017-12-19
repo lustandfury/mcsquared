@@ -23,4 +23,6 @@ blockquote {
   -webkit-text-fill-color: transparent;
   background-repeat: repeat;
   background-size: cover;
+  background-color: #fff;
+  background-blend-mode: luminosity;
 }
