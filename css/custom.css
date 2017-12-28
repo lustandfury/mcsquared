@@ -14,6 +14,10 @@ blockquote {
 .hero-text {
   text-transform: uppercase;
   line-height: 0.9;
+  font-size: 2rem;
+  @media only screen and (max-width: 30rem)  {
+    font-size: 6rem;
+  }
 }
 
 .knockout-text {
