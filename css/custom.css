@@ -56,7 +56,14 @@ blockquote {
 }
 
 @media only screen and (min-width: 30em) {
-      .number-circle {
-        border-radius: 100%;
+    .number-circle {
+      border-radius: 100%;
+      height: 70px;
+      width: 70px;
+      line-height: 73px;
+      font-size: 7rem;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 2rem;
   }
 }
