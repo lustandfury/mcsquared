@@ -41,7 +41,7 @@ blockquote {
 .number-circle {
     background: red;
     color: #fff;
-    border-radius: 100%;
+    border-radius: 0 50% 50% 0;
     height: 30px;
     width: 30px;
     position: absolute;
@@ -53,4 +53,10 @@ blockquote {
     top: -5px;
     display: inline;
     float: left;
+}
+
+@media only screen and (min-width: 30em) {
+      .number-circle {
+        border-radius: 100%;
+  }
 }
