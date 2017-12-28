@@ -20,6 +20,7 @@ blockquote {
   .hero-text {
     font-size: 3rem;
   }
+}
 @media only screen and (min-width: 60em)  {
   .hero-text {
     font-size: 6rem;
