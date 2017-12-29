@@ -36,6 +36,7 @@ blockquote {
   background-size: cover;
   background-color: #fff;
   background-blend-mode: hard-light;
+  -webkit-animation: animatedBackground 100s linear infinite;
 }
 
 .number-circle {
@@ -71,3 +72,8 @@ blockquote {
       float: none;
   }
 }
+
+ @-webkit-keyframes animatedBackground {
+ 0% { background-position: 0 0; }
+ 100% { background-position: 0 -500px; }
+ }
