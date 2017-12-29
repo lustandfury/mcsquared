@@ -33,7 +33,7 @@ blockquote {
   -webkit-background-clip: text;
   -webkit-text-fill-color: #ffffff54;
   background-repeat: repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: #fff;
   background-blend-mode: hard-light;
 }
