@@ -33,7 +33,6 @@ blockquote { margin: 0; }
   background-size: cover;
   background-color: #fff;
   background-blend-mode: hard-light;
-  background-attachment: fixed;
 }
 
 .number-circle {
