@@ -1,21 +1,18 @@
 .sans-serif { font-family: 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 
-a {
-  color: #e7040f;
-}
+.attached-fixed { background-attachment: fixed; }
+a { color: #e7040f; }
 
-blockquote {
-  margin: 0;
-}
+blockquote { margin: 0; }
 
-.lh-list {
-  line-height: 2;
-}
+.lh-list { line-height: 2; }
+
 .hero-text {
   text-transform: uppercase;
   line-height: 0.9;
   font-size: 2rem;
 }
+
 @media only screen and (min-width: 30em)  {
   .hero-text {
     font-size: 3rem;
