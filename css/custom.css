@@ -39,7 +39,9 @@ blockquote {
 }
 
 .number-circle {
-  background: red;
+  background: url(../img/napoleon-crop-halftone-bw.gif) no-repeat;
+  background-color: red;
+  background-blend-mode: screen;
   color: #fff;
   border-radius: 0 50% 50% 0;
   height: 30px;
