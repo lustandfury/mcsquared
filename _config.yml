@@ -6,8 +6,8 @@ descripiton: "Web presence for Mike Costanzo: Product, UX, UI and Lean Startup..
 # Owner (organization or individual) of site content
 author: "Mike Costanzo"
 
-#url: http://
-url: "http://www.mcsquareddesign.com"
+#url: https://
+url: "https://www.mcsquareddesign.com"
 
 # Your UA tracking number (i.e 35858753-1) for Google Analytics.
 # If you comment this out, or don't fill out this parameter - Google analytics won't be included.
