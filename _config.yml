@@ -1,7 +1,7 @@
 # This will be the first part of the title tag for your site <title> site.name + page.title </title>
 name: "MC Squared Design"
 # Populates the meta description for the site. Should be under 150 characters for best SEO purposes.
-descripiton: "Web presence for Mike Costanzo: Product, UX, UI and Lean Startup...Lean Everthing actually."
+descripiton: "A lifelong learner, old enough to be specialized in a few things by now, I've helped to build teams and launch software products big and small."
 
 # Owner (organization or individual) of site content
 author: "Mike Costanzo"
